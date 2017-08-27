@@ -1,0 +1,16 @@
+gist vain0/561a66531363ab1e0e73 dirlist_rec.hsp
+
+github f7q/ExtCore:d4ced6c6de7918a57c3af46015e546027265ae0a
+#github fsharp/private src/myprivate/file.fs githubAuthKey
+github f7q/ExtCore-Sample:bata9
+#https://github.com/f7q/ExtCore-Sample/commit/873ffa8d9d004f336ca4d3e1de36b0dd6b13217e
+# 上記のコミットURIがタグやコミットHashに紐づいて取得してる様子。
+//　github上からの特定のファイルを取得するには向いてない。
+
+source https://nuget.org/api/v2
+
+nuget DotNetZip >= 1.9
+
+//packagesなどフォルダは自動生成されない。
+http https://github.com/f7q/upNuPkg/blob/master/packages/src.1.0.0.nupkg ../../packages/src.1.0.0.nupkg
+http https://github.com/f7q/upNuPkg/blob/master/packages/src.1.0.0.symbols.nupkg ../../packages/src.1.0.0.symbols.nupkg

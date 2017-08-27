@@ -1,0 +1,15 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    DotNetZip (1.10.1)
+GIST
+  remote: vain0/561a66531363ab1e0e73
+    dirlist_rec.hsp (657f168c10dfce9b5e005c4c52f453ee4d19bf4f)
+GITHUB
+  remote: f7q/ExtCore
+    FULLPROJECT (d4ced6c6de7918a57c3af46015e546027265ae0a)
+  remote: f7q/ExtCore-Sample
+    FULLPROJECT (873ffa8d9d004f336ca4d3e1de36b0dd6b13217e)
+HTTP
+  remote: https://github.com
+    ../../packages/src.1.0.0.nupkg (/f7q/upNuPkg/blob/master/packages/src.1.0.0.nupkg)
+    ../../packages/src.1.0.0.symbols.nupkg (/f7q/upNuPkg/blob/master/packages/src.1.0.0.symbols.nupkg)
